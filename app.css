@@ -1,0 +1,75 @@
+/* Container to center and fix width of content */
+.container {
+    width: 1000px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    background-image: rgb(201, 201, 201);
+
+}
+nav {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+
+}
+nav ul{
+    width: 90%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+nav li{
+    height: 40px;
+    
+}
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+    
+    
+}
+nav a:hover {
+    background-color: #f0f0f0; 
+    
+}
+nav li:first-child{
+    margin-right: auto;
+    
+}
+
+/* Header One the DepthNav name */
+h1 {
+    color: rgb(29, 68, 39);
+    text-align: center;
+    font: 8rem "Fira Sans", sans-serif;
+    margin-right: 100px;
+    margin-left: 100px;
+    
+} 
+
+h3 {
+    color: black;
+    text-align: right;
+    font: 1rem "Fira Sans", sans-serif;
+    margin-right: 100px;
+
+}
+p{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font: 2rem "Fira Sans", sans-serif;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+body {
+    background-color: rgb(201, 201, 201);
+    margin: 0;
+    font: "Fira Sans", sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
