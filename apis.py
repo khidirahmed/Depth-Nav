@@ -20,7 +20,7 @@ prompt = 'You are a helpful AI bot named "Deb" who will help people find the spe
 
 @app.route('/')
 def index():
-    return render_template('trial2.html')
+    return render_template('trial.html')
 
 @app.route('/', methods=['POST'])
 def chat():
