@@ -1,32 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset = "Fira Sans">
-    <meta http-equiv = "X-UA-Compatable" content="IE-edge">
-    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DepthNav</title>
-    <link rel="stylesheet" href="app.css"/>
-    <link rel="icon" href= "DN_logo_fin.png"/>
+    <link rel="stylesheet" href="app.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a>DepthNav</a></li>
-            <li><a onclick="window.location.href='https://api.depthnav.com'">Try DepthNav</a></li>
-            <li><a href= "about.html">About DepthNav</a></li>
-            <li><a href= "updates.html">DepthNav Updates</a></li>
 
+<video autoplay muted id="background-video">
+    <source src="DNBCV.mp4" type="video/mp4">
+</video>
 
-        </ul>
+<header class="header">
+    <div class="logo">DepthNav</div>
+    <nav class="nav">
+        <button class="nav-button" onclick="window.location.href='https://api.depthnav.com'">Try DepthNav</button>
+        <button class="nav-button" onclick="location.href='about.html'">About DepthNav</button>
+        <button class="nav-button" onclick="location.href='updates.html'">DepthNav Updates</button>
     </nav>
-    <div class="container">
-        <h1>DepthNav</h1>
-        <p>A new way to find.</p>
-        <h2></h2>
-        <p>Optimized for desktop</p>
-        <p>click "Try DepthNav" to get started</p>
-        <p>please wait up to 2 minutes for trial to load.</p>
-    </div>
-    <h3>ver. 1.3.2</h3>
+</header>
+
+<div class="main-content">
+    <h1>DepthNav</h1>
+    <p class="subheading">
+    <div class="spaced-line">A new way to find.</div>
+    <div class="spaced-line">Optimized for desktop.</div>
+    <div class="spaced-line"></div>
+    <p class="author">By Khidir Ahmed</p>
+
+</div>
 </body>
-</html>
+
