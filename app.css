@@ -181,3 +181,34 @@ h1 {
     object-fit: cover; 
     z-index: -1; 
 }
+@media (max-width: 768px) {
+    .header {
+        padding: 6px 3%;
+    }
+
+    .logo {
+        font-size: 12px;
+    }
+
+    .nav-button {
+        padding: 5px 5px;
+        font-size: 12px;
+    }
+
+    .main-content {
+        padding: 30px 10px;
+        margin-top: 100px;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+
+    .subheading div, .spaced-line {
+        font-size: 16px;
+    }
+
+    .author {
+        font-size: 14px;
+    }
+}

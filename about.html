@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset = "Fira Sans">
+    <meta charset="UTF-8">
     <meta http-equiv = "X-UA-Compatable" content="IE-edge">
     <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
     <title>About DepthNav</title>
     <link rel="icon" href= "DN_logo_fin.png"/>
     <style>
         .container {
-            width: 1100px; 
-            margin: 0 auto; 
-            padding: 20px; 
-            background-image: rgb(201, 201, 201);
+            width: 90%; /* Set a responsive width */
+            max-width: 1100px; /* Maximum width for larger screens */
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgb(201, 201, 201);
+            text-align: center; /* Center-align text within the container */
         }
+
         body{
             background-color: rgb(201, 201, 201);
             margin: 0;
@@ -56,6 +59,29 @@
 
         .home-button:hover {
             background-color: rgb(19, 48, 29);
+        }
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+                margin-top: 20px;
+                max-width: 90%;
+            }
+
+            h1 {
+                font-size: 24px;
+                margin: 0;
+            }
+
+            h2 {
+                font-size: px;
+                margin: 10px 0;
+            }
+
+            p {
+                font-size: 20px;
+                line-height: 1.4;
+                margin: 10px 0;
+            }
         }
     </style>
 </head>
